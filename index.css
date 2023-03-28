@@ -1,0 +1,20 @@
+body{
+    /* background-image: url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/734546229001/8dd71182-b17c-4112-9b07-6bebefc34135/1ba9bb1b-e4f6-453c-a7a4-dacafbf71f3d/1920x1080/match/image.jpg"); */
+    /* z-index: -3;
+    filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    position: relative;
+}
+body::before{
+    background-image: url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/734546229001/8dd71182-b17c-4112-9b07-6bebefc34135/1ba9bb1b-e4f6-453c-a7a4-dacafbf71f3d/1920x1080/match/image.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    position: absolute;
+     content: "";
+     width: 100%;
+     height: 1000px;
+     filter: blur(8px);
+     -webkit-filter: blur(8px);
+
+}
